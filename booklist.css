@@ -1,0 +1,180 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3em;
+    margin-left: 14em;
+}
+
+header span{
+    font-size: 4em;
+    font-weight: 500;
+}
+
+header .span1{
+    color: dodgerblue;
+    margin-right: .1em;
+}
+
+header .span3{
+    color: dodgerblue;
+}
+
+.success{
+    height: 36px;
+    width: 50vw;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.removed{
+    height: 36px;
+    width: 50vw;
+    background-color: firebrick;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+
+form{
+    width: 80vw;
+    min-height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+}
+
+form label{
+    font-size: 2.5em;
+}
+
+form input{
+    font-size: 1.2em;
+    width: 50vw;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    
+}
+
+form input:focus{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: gainsboro;
+   border-bottom: 3px solid black;
+   opacity: 1;
+   transform: scale(1.02);
+   transition: all .3s ease;
+}
+
+form .input-div{
+  margin-top: 10px;    
+}
+
+form input::placeholder{
+    font-size: 1.3em;
+}
+
+form button{
+    border: none;
+    margin-top: 1.5em;
+    width: 20vw;
+    padding: 5px;
+    height: 40px;
+    color: white;
+    font-size: 1.8em;
+    background-color: dodgerblue;
+}
+
+form button:hover{
+    color: dodgerblue;
+    background-color: white;
+    border: none;
+    transform: scale(1.03);
+    transition: transform .4s;
+}
+
+form button:active{
+    background-color: dodgerblue;
+    color: white;
+
+    
+}
+
+table{
+    width: 60vw;
+    height: auto;
+    margin-top: 5em;
+    margin-left: 9em;
+}
+
+table thead th{
+    font-size: 2.5em;
+    background-color: white;
+    height: 2em;
+    text-align: left;
+}
+
+table tr {
+    text-align: center;
+    background-color: gainsboro;
+    height: 4em;
+    margin: 0;
+    border: none;
+}
+
+table tr td{
+    font-size: 1.8em;
+    margin: 0;
+    border: none;
+    text-align: left;
+}
+
+table .delete{
+    background-color: red;
+    color: black;
+    padding: 5px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: inherit;
+    text-decoration: none;
+}
+
+table .delete:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: transform .7s ease-in-out;
+}
+
+table .delete:active{
+    background-color: firebrick;
+}
+

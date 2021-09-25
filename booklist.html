@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="booklist.css">
+    <title>BOOKLIST APP</title>
+</head>
+<body>
+   <div class="container">
+       <header>
+           <h3><span class="span1">My</span><span class="span2">Book</span><span class="span3">List</span></h3>
+       </header>
+       <form action="" class="booklist-form">
+           <div class="input-div title">
+               <label for="book-title">Book Title</label> <br>
+               <input type="text" id="book-title" placeholder="Enter Book Title" required/>
+           </div>
+           <div class="input-div author">
+               <label for="book-author">Book Author</label> <br>
+               <input type="text" id="book-author" placeholder="Enter Book Author" required/>
+           </div>
+           <div class="input-div ID">
+               <label for="book-ID">Book ID</label> <br>
+               <input type="text" id="book-ID" placeholder="Enter Book ID" required/>
+           </div>
+           <button type="submit">Add Book</button>
+       </form>
+
+       <table class="book-table">
+           <thead>
+               <th>Book Title</th>
+               <th>Book Author</th>
+               <th>Book ID</th>
+               <th></th>
+           </thead>
+           <tbody class="table-body"></tbody>
+       </table>
+   </div>
+    
+
+    <script src="booklist.js"></script>
+</body>
+</html>
